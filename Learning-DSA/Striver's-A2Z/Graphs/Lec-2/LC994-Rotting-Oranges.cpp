@@ -1,3 +1,5 @@
+//O(mn), O(mn)
+
 class Solution {
 public:
     int orangesRotting(vector<vector<int>>& grid) {
