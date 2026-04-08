@@ -21,7 +21,7 @@ class Solution {
         }
     }
 
-    int extractMax (vector<int> &arr)
+    int extractMin (vector<int> &arr)
     {
         int mini = arr[0];
         arr[0] = arr[arr.size()-1];
@@ -42,7 +42,7 @@ class Solution {
 
         while (k!=0)
         {
-            ans = extractMax(arr);
+            ans = extractMin(arr);
             k--;
         }
         
