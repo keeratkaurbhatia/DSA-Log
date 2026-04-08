@@ -38,7 +38,7 @@ class Solution {
             heapify(i,arr);
         }
 
-        int ans = INT_MIN;
+        int ans = INT_MAX;
 
         while (k!=0)
         {
